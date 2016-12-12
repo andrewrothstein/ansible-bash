@@ -1,0 +1,6 @@
+---
+- name: install bash
+  become: yes
+  become_user: root
+  package: name=bash state=present
+
