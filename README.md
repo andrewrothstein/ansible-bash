@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/andrewrothstein/ansible-bash.svg?style=svg)](https://circleci.com/gh/andrewrothstein/ansible-bash)
 andrewrothstein.bash
 =========
 
