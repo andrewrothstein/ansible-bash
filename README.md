@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/andrewrothstein/ansible-bash.svg?style=svg)](https://circleci.com/gh/andrewrothstein/ansible-bash)
 andrewrothstein.bash
 =========
+[![Build Status](https://travis-ci.org/andrewrothstein/ansible-bash.svg?branch=master)](https://travis-ci.org/andrewrothstein/ansible-bash)
 
 Installs [Bash](https://www.gnu.org/software/bash/)
 
