@@ -9,3 +9,10 @@
     name: bash
     state: present
 
+- name: ensure the bash completions directory exists
+  become: yes
+  become_user: root
+  file:
+    path: '{{bash_completion_d}}'
+    state: directory
+    mode: 0755
