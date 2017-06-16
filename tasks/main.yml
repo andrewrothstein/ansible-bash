@@ -2,6 +2,9 @@
 - name: install bash
   become: yes
   become_user: root
+  with_items:
+    - bash
+    - bash-completions
   package:
     name: bash
     state: present
