@@ -22,6 +22,9 @@ galaxy_info:
     - name: Debian
       versions:
         - jessie
+    - name: MacOSX
+      versions:
+        - all
   galaxy_tags:
     - development
 

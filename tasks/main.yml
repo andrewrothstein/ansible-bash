@@ -1,6 +1,6 @@
 ---
 - name: install bash
-  become: yes
+  become: '{{bash_privilege_escalation|default(True)}}'
   become_user: root
   with_items:
     - bash
@@ -10,7 +10,7 @@
     state: present
 
 - name: ensure the bash completions directory exists
-  become: yes
+  become: '{{bash_privilege_escalation|default(True)}}'
   become_user: root
   file:
     path: '{{bash_completion_d}}'
