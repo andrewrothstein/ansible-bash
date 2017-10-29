@@ -16,6 +16,7 @@
   with_items:
     - bash
     - bash-completions
+    - bc
   package:
     name: bash
     state: present
