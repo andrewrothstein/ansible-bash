@@ -4,7 +4,7 @@ galaxy_info:
   description: installs bash
   company: BlackRock
   license: MIT
-  min_ansible_version: 2.0
+  min_ansible_version: '2.0'
   platforms:
     - name: Alpine
       versions:
@@ -22,8 +22,8 @@ galaxy_info:
         - 9
     - name: Fedora
       versions:
-        - 37
         - 38
+        - 39
     - name: MacOSX
       versions:
         - all
